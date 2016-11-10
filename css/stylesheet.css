@@ -1,0 +1,102 @@
+/*experiment with css*/
+
+
+/*navigation bar*/
+
+#menu {
+    width: 100%;
+    height: 35px;
+    font-size: 20px;
+    font-family: 'Yrsa', serif;
+    font-weight: bold;
+    text-align: center;
+        background-color: #8AD9FF;
+        border-radius: 8px;
+}
+#menu ul {
+    height: auto;
+    padding: 8px 0px;
+    margin: 0px;
+}
+
+#menu li { 
+    display: inline; 
+    padding: 20px; 
+}
+
+#menu a {
+    text-decoration: none;
+    color: #00F;
+    padding: 8px 8px 8px 8px;
+}
+
+#menu a:hover {
+    color: #F90;
+    background-color: #FFF;
+}
+
+
+
+/* lining up photos on index page*/
+
+#photos  {
+    position: relative;
+    left: 400px;
+}
+
+.indexphotos{
+    width: 350px;
+    height: 400px;
+    
+    
+}
+
+#dionindex {
+    position: absolute;
+    top: 50px;
+    left: 75px;
+}
+
+#bobbyindex {
+    position: absolute;
+    top: 50px;
+    left: 400px;
+    
+}
+
+#arleneindex {
+    position: absolute;
+    top: 50px;
+    left: 750px;
+    
+}
+
+#photocredits {
+    text-align: center;
+}
+
+
+
+#indexcontent {
+    position: relative;
+    top: 600px;
+    margin-left: 50px;
+    margin-right: 200px;
+  
+}
+
+#content {
+    top: 200px;
+    margin-left: 50px;
+    margin-right: 200px;
+  
+}
+
+#american_bandstand {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: #00f
+
